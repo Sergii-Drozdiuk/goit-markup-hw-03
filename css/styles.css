@@ -56,7 +56,19 @@ body {
   color: var(--primary-text);
   background-color: var(--third-color);
 }
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid mediumaquamarine;
+}
 /* Header */
+.page-header {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
