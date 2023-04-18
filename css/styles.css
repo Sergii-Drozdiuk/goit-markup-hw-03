@@ -28,6 +28,7 @@ ul {
 .link {
   text-decoration: none;
 }
+/* Titles */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -41,7 +42,6 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* Titles */
 .title {
   font-weight: 500;
   font-size: 20px;
@@ -73,6 +73,10 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* Header */
 .page-header {
   border-bottom: 1px solid var(--accent-color);
@@ -86,8 +90,6 @@ body {
   align-items: center;
 }
 .logo {
-  margin-right: 76px;
-
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -95,6 +97,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+}
+.header-logo {
+  margin-right: 76px;
 }
 .logo-part-header {
   color: var(--secondary-color);
@@ -133,24 +138,27 @@ body {
 }
 /* Hero */
 .hero {
-  text-align: center;
   background-color: var(--secondary-color);
 }
 .hero-title {
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 48px;
   max-width: 496px;
 
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--third-color);
 }
 .hero-btn {
-  margin-bottom: 188px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   font-family: inherit;
   font-weight: 500;
@@ -160,6 +168,10 @@ body {
   cursor: pointer;
   color: var(--third-color);
   background-color: var(--primary-brand-color);
+}
+.hero .section {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -175,11 +187,21 @@ body {
 }
 /* Footer */
 .footer-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   background-color: var(--secondary-color);
   color: var(--light-color);
 }
 .logo-part-footer {
   color: var(--light-color);
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text {
+  max-width: 264px;
 }
 
 /* --------------------------------
