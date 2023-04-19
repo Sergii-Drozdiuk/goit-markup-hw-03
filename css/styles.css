@@ -79,9 +79,15 @@ body {
 }
 .features-list,
 .work-list,
-.team-list {
+.team-list,
+.filter-list {
   display: flex;
   gap: 24px;
+}
+.contacts,
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 /* Header */
 .page-header {
@@ -108,10 +114,6 @@ body {
 .logo-part-header {
   color: var(--secondary-color);
 }
-.nav-list {
-  display: flex;
-  gap: 40px;
-}
 .nav-link {
   display: block;
   padding: 24px 0;
@@ -123,10 +125,6 @@ body {
   margin-left: auto;
 
   font-style: normal;
-}
-.contacts {
-  display: flex;
-  gap: 40px;
 }
 .mail-tel-link {
   display: block;
@@ -209,6 +207,9 @@ body {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--third-color);
 }
+.team-img {
+  display: block;
+}
 .team-container {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -241,7 +242,13 @@ body {
    Portfolio
    -------------------------------- */
 
+.projects.section {
+  padding-top: 96px;
+}
+/* Filter */
 .filter-btn {
+  padding: 12px 24px;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -250,12 +257,20 @@ body {
   cursor: pointer;
   color: var(--primary-brand-color);
   background: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--third-color);
   background-color: var(--pressed-state-color);
+  border: 1px solid transparent;
 }
+.filter-list {
+  margin-bottom: 72px;
+  justify-content: center;
+}
+/* Projects */
 .project-discr {
   font-size: 16px;
   line-height: 1.5;
