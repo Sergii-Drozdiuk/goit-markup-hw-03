@@ -181,6 +181,7 @@ body {
 }
 .hero-btn {
   display: block;
+  min-width: 169px;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
@@ -197,7 +198,7 @@ body {
   color: var(--third-color);
   background-color: var(--primary-brand-color);
 }
-.hero .section {
+.hero.section {
   padding-top: 188px;
   padding-bottom: 188px;
 }
