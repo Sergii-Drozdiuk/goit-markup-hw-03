@@ -169,6 +169,7 @@ body {
   background-color: var(--secondary-color);
 }
 .hero-title {
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
